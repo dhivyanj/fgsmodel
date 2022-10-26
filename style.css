@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto';
+    background-color: #0B1347;
+}
+
+table {
+    width:100%;
+    border: 1px black;
+}
+
+td.title{
+    text-align: center;
+    border: 5px black;
+}
+
+img.icon {
+    border-radius: 20%;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+img.icon:hover {
+    box-shadow: 0 4px 16px 0 rgba(255, 255, 255, 0.877), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+a.login, a.login:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    border: 5px black;
+}
+
+.tabs-bor{
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+.body {
+    background-color: #ffd42c;
+    padding: 20px;
+    border-spacing: 10px;
+    border-radius: 20px;
+}
+
+.tabs {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s ease-in-out;
+    font-weight: bolder;
+    font-size: large
+}
+
+.tabs:hover {
+    box-shadow: 0 4px 16px 0 rgba(51, 51, 51, 0.877), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black
+}
+
+div.text {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+img.clg {
+    height: 200px;
+    width: 300px;
+}
+
+td.clg2 {
+    text-align: center;
+}
+td.clg1 {
+    text-align: right;
+}
+td.clg3 {
+    text-align: left;
+}
