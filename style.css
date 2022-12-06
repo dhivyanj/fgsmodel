@@ -94,3 +94,13 @@ td.clg1 {
 td.clg3 {
     text-align: left;
 }
+
+input.admn {
+    padding: 10px;
+    font-family: 'Roboto';
+}
+
+form {
+    font-size: large;
+    text-align: center;
+}
